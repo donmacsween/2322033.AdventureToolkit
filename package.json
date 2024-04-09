@@ -6,8 +6,8 @@
   "unity": "2022.3",
   "unityRelease": "10f1",
   "documentationUrl": "https://example.com/",
-  "changelogUrl": "https://example.com/changelog.html",
-  "licensesUrl": "https://example.com/licensing.html",
+  "changelogUrl": "https://github.com/donmacsween/com.2322033.AdventureToolkit",
+  "licensesUrl": "https://github.com/donmacsween/com.2322033.AdventureToolkit/blob/main/LICENSE.txt",
   "dependencies": {
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.ai.navigation": "1.1.5",
@@ -22,13 +22,13 @@
   "samples": [
     {
       "displayName": "Tutorial Demo Scenes",
-      "description": "A series of scenes demonstrating the component elements of the toolkit",
+      "description": "A series of scenes demonstrating the component elements of the toolkit, Requies the Universal Render Pipeline",
       "path": "Samples~/Tutorial"
     }
   ],
   "author": {
     "name": "2322030",
     "email": "unity@example.com",
-    "url": "https://www.unity3d.com"
+    "url": "https://github.com/donmacsween"
   }
 }
