@@ -1,2 +1,3 @@
-# 2322033.AdventureToolkit
- A toolkit for creating adventure games within unity
+# Changelog
+All notable changes to this package will be documented in this file.
+Version 1.0.0 Released

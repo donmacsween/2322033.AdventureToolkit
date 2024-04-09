@@ -1,5 +1,5 @@
 {
-  "name": "com.2322033.AdventureToolkit",
+  "name": "com.don.advtk",
   "displayName": "Adventure Toolkit",
   "version": "1.0.0",
   "description": "A comprehensive adventure toolkit",
@@ -12,7 +12,8 @@
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.inputsystem": "1.6.3",
-    "com.unity.cinemachine": "2.9.7"
+    "com.unity.cinemachine": "2.9.7",
+    "com.unity.render-pipelines.universal": "14.0.10"
   },
   "keywords": [
     "adventure",
@@ -21,8 +22,8 @@
   "samples": [
     {
       "displayName": "Tutorial Demo Scenes",
-      "description": "A series of scenes demonstraing the component elements of the toolkit",
-      "path": "Samples~/SamplesStandard/Samples"
+      "description": "A series of scenes demonstrating the component elements of the toolkit",
+      "path": "Samples~/Tutorial"
     }
   ],
   "author": {
