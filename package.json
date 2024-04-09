@@ -1,0 +1,25 @@
+{
+  "name": "com.2322033.AdventureToolkit",
+  "version": "1.0.0",
+  "displayName": "Adventure Toolkit",
+  "description": "A toolkit for creating adventure games in unity",
+  "unity": "2022.3",
+  "unityRelease": "5f1",
+  "documentationUrl": "https://github.com/donmacsween/com.2322033.AdventureToolkit/wiki/_new",
+  "dependencies": {
+    "com.unity.ai.navigation": "1.1.5",
+    "com.unity.inputsystem": "1.6.3",
+    "com.unity.textmeshpro": "3.0.6",
+    "com.unity.cinemachine": "2.9.7"
+  },
+  "keywords": [
+    "Adventure",
+    "Toolkit"
+  ],
+  "author": {
+    "name": "2322033",
+    "email": "dm1200@student.ARU.ac.uk",
+    "url": "https://github.com/donmacsween/com.2322033.AdventureToolkit"
+  }
+
+}
