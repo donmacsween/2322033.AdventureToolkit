@@ -1,7 +1,7 @@
 {
-  "name": "com.2322033.advtk",
+  "name": "com.2322033.AdventureToolkit",
   "version": "1.0.0",
-  "displayName": "ADVTK",
+  "displayName": "Adventure Toolkit",
   "description": "A comprehensive adventure toolkit",
   "unity": "2022.3",
   "unityRelease": "10f1",
@@ -20,8 +20,8 @@
   ],
   "samples": [
     {
-      "displayName": "weird sample scene",
-      "description": "Contains sample shaders for the Standard render pipeline",
+      "displayName": "Tutorial Demo Scenes",
+      "description": "A series of scenes demonstraing the component elements of the toolkit",
       "path": "Samples~/SamplesStandard/Samples"
     }
   ],
