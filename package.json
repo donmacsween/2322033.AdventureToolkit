@@ -1,25 +1,33 @@
 {
-  "name": "com.2322033.AdventureToolkit",
+  "name": "com.2322033.advtk",
   "version": "1.0.0",
-  "displayName": "Adventure Toolkit",
-  "description": "A toolkit for creating adventure games in unity",
+  "displayName": "ADVTK",
+  "description": "A comprehensive adventure toolkit",
   "unity": "2022.3",
-  "unityRelease": "5f1",
-  "documentationUrl": "https://github.com/donmacsween/com.2322033.AdventureToolkit/wiki/_new",
+  "unityRelease": "10f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
   "dependencies": {
+    "com.unity.textmeshpro": "3.0.6",
     "com.unity.ai.navigation": "1.1.5",
     "com.unity.inputsystem": "1.6.3",
-    "com.unity.textmeshpro": "3.0.6",
     "com.unity.cinemachine": "2.9.7"
   },
   "keywords": [
-    "Adventure",
-    "Toolkit"
+    "adventure",
+    "toolkit"
+  ],
+  "samples": [
+    {
+      "displayName": "weird sample scene",
+      "description": "Contains sample shaders for the Standard render pipeline",
+      "path": "Samples~/SamplesStandard/Samples"
+    }
   ],
   "author": {
-    "name": "2322033",
-    "email": "dm1200@student.ARU.ac.uk",
-    "url": "https://github.com/donmacsween/com.2322033.AdventureToolkit"
+    "name": "2322030",
+    "email": "unity@example.com",
+    "url": "https://www.unity3d.com"
   }
-
 }
