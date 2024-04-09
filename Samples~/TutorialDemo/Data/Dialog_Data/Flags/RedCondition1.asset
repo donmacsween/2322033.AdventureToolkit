@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ffeef2251f0c7408de38decbc3bbbd, type: 3}
+  m_Name: RedCondition1
+  m_EditorClassIdentifier: 
+  isConditional: 1
+  flagToCheck: SpokenToMrGreen
+  conditionalTrueDialog: {fileID: 11400000, guid: 0e323cab660f64d47918984580342a68, type: 2}
+  conditionalFalseDialog: {fileID: 11400000, guid: ca98ece1057b0bf4584b00f1c1cfa149, type: 2}
+  unconditionalDialog: 
+  responses: []

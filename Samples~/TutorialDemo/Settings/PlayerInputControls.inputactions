@@ -1,0 +1,45 @@
+{
+    "name": "PlayerInputControls",
+    "maps": [
+        {
+            "name": "InGame",
+            "id": "57b15009-a223-404f-8f75-905057e6c401",
+            "actions": [
+                {
+                    "name": "PointerSelect",
+                    "type": "Button",
+                    "id": "df9452b3-755f-4a03-9469-80035686cea0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "efe8a2ac-7dfc-4ad9-b443-74ce345f0764",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerSelect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "88d6b181-9a24-4dd2-8f26-32d34cfa3641",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PointerSelect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

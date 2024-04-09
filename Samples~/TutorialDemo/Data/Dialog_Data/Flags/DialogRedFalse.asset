@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ffeef2251f0c7408de38decbc3bbbd, type: 3}
+  m_Name: DialogRedFalse
+  m_EditorClassIdentifier: 
+  isConditional: 0
+  flagToCheck: 
+  conditionalTrueDialog: {fileID: 0}
+  conditionalFalseDialog: {fileID: 0}
+  unconditionalDialog: Please talk to Mr Geen and then come see me again.
+  responses:
+  - {fileID: 11400000, guid: 1567dedb07e9d7248abe981d5b19f43a, type: 2}
