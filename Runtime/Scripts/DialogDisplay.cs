@@ -1,3 +1,5 @@
+// Author  : Don MacSween.
+// Purpose : A view component that handles dialog display on a canvas
 using UnityEngine;
 using TMPro;
 

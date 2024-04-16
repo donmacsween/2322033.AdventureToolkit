@@ -1,4 +1,4 @@
-// Author  : Don MacSween
+// Author  : Don MacSween.
 // Purpose : This class builds a grid of prefabs and subsequent AI NavMeshSurface 
 
 // Included namespaces
@@ -12,7 +12,6 @@ namespace ADVTK
     [RequireComponent(typeof(NavMeshSurface))]
     public class GridBuilder : MonoBehaviour
     {
-        #region Fields
         // Seralized     Accessor Datatype                  Name                Initial value      
         [SerializeField] private Vector3                    gridOrigin;
         [SerializeField] private int                        gridSizeX           = 0;
@@ -25,9 +24,8 @@ namespace ADVTK
         [SerializeField] private GridTileSO[]               tiles;
         [SerializeField] private UnityEvent                 postBuildEvents = null;
                          private NavMeshSurface             surface;
-        #endregion
 
-        #region - Unity MonoBehaviour Methods
+       
         /// <summary>
         /// Validates & initialises fields then invokes the initial methods
         /// Awake is used as it happens before the first frame of the scene is rendered
@@ -53,9 +51,7 @@ namespace ADVTK
             // Invoke any custom scripts the developer has added in scene
             if (postBuildEvents != null) { postBuildEvents.Invoke(); }
         }
-        #endregion
 
-        #region - Private Methods
         /// <summary>
         /// Builds the grid from prefabs included in the tiles array 
         /// </summary>
@@ -108,7 +104,6 @@ namespace ADVTK
             // build the navmesh
             surface.BuildNavMesh();
         }
-        #endregion
     }
 }
 

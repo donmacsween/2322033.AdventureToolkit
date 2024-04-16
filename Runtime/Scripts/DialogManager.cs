@@ -1,4 +1,5 @@
-
+// Author  : Don MacSween.
+// Purpose : A controller for processing dialog and actions in dialog
 using System.Collections;
 using UnityEngine;
 

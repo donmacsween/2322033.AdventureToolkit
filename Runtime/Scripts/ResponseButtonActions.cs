@@ -1,3 +1,6 @@
+// Author  : Don MacSween.
+// Purpose : added to the dialogdisplay prefab to trigger user interactions
+//           with the response buttons
 using UnityEngine;
 using UnityEngine.EventSystems;
 

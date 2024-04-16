@@ -1,4 +1,5 @@
-
+// Author  : Don MacSween.
+// Purpose : A data store for dialog responses and the actions they will execute
 using UnityEngine;
 
 namespace ADVTK

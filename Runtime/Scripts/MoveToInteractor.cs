@@ -1,25 +1,34 @@
+// Author  : Don MacSween.
+// Purpose : Part of the interaction system that moves the player
+//           into interaction range
 using UnityEngine;
-
-public class MoveToInteractor : MonoBehaviour
+namespace ADVTK
 {
-    [SerializeField] private CharacterMotor characterMotor;
-    [SerializeField] private Transform target;
-
-    private void Awake()
+    public class MoveToInteractor : MonoBehaviour
     {
-        characterMotor = FindFirstObjectByType<CharacterMotor>();
-    }
+        [SerializeField] private CharacterMotor characterMotor;
+        [SerializeField] private Transform target;
 
-    public void MoveToInteraction()
-    {
-        if (characterMotor != null)
-        {
-            characterMotor.MoveTo(target.position);
-        }
-        else
+        private void Awake()
         {
             characterMotor = FindFirstObjectByType<CharacterMotor>();
-            characterMotor.MoveTo(target.position);
+        }
+
+        /// <summary>
+        /// Moves the player to the target world point 
+        /// </summary>
+        public void MoveToInteraction()
+        {
+            if (characterMotor != null)
+            {
+                characterMotor.MoveTo(target.position);
+            }
+            else
+            {
+                // there should only ever be one CharacterMotor in the scene
+                characterMotor = FindFirstObjectByType<CharacterMotor>();
+                characterMotor.MoveTo(target.position);
+            }
         }
     }
 }

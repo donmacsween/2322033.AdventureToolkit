@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29ffeef2251f0c7408de38decbc3bbbd, type: 3}
+  m_Name: GreenHasApple2
+  m_EditorClassIdentifier: 
+  isConditional: 0
+  flagToCheck: hasItemApple
+  conditionalTrueDialog: {fileID: 0}
+  conditionalFalseDialog: {fileID: 0}
+  unconditionalDialog: Give me the apple and I'll help you get out
+  responses:
+  - {fileID: 11400000, guid: be8c01f40ae86cd44b3463b429fadbdb, type: 2}

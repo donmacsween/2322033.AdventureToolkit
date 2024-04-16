@@ -1,5 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
+// Author  : Don MacSween.
+// Purpose : A helper script that manages the lock part of the physics puzzle
 using UnityEngine;
 
 public class LockControl : MonoBehaviour

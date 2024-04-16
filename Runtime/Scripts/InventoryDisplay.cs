@@ -1,4 +1,5 @@
-
+// Author : Don MacSween.
+// Purpose: this script populates a display canvas with inventory objects
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,16 +11,23 @@ namespace ADVTK
         [SerializeField] private InventoryItem  inventoryItemPrefab;
                          private List<ItemSO>   items;
         
-
+        /// <summary>
+        /// Runs when the panel is displayed in game
+        /// </summary>
         private void OnEnable()
         {
             CreateInventoryList();
         }
-
+        /// <summary>
+        ///  and cleared when it is hidden
+        /// </summary>
         private void OnDisable()
         {
             ClearInventoryList();
         }
+        /// <summary>
+        /// Instanciates inventory item prefabs and populates them with data
+        /// </summary>
         private void CreateInventoryList ()
         {
             items = InventoryManager.Instance.ListInventoryItems();
@@ -32,7 +40,9 @@ namespace ADVTK
                 }
             }
         }
-
+        /// <summary>
+        /// Removes all child canvas elements ready for next access
+        /// </summary>
         private void ClearInventoryList()
         {
             

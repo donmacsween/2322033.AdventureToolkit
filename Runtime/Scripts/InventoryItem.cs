@@ -1,4 +1,6 @@
-
+// Author : Don MacSween.
+// Purpose: Used with InventoryDisplay.cs within the InventoryItemPrefab to show
+//          Inventory items
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;

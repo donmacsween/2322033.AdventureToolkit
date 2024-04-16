@@ -1,3 +1,5 @@
+// Author  : Don MacSween.
+// Purpose : Stores data on the initial NPC dialog and custom UnityEvents
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -5,14 +7,11 @@ namespace ADVTK
 {
     public class NPCDialog : MonoBehaviour
     {
-        #region Fields
         [SerializeField] private DialogSO   initialDialog;
                          public  string     npcName;
                          public  DialogSO   currentDialog;
                          public  UnityEvent customEvent;
-        #endregion
 
-        #region Unity Private Methods
         private void Awake()
         {
             // Field Validation
@@ -22,9 +21,8 @@ namespace ADVTK
             }
             currentDialog = initialDialog;
         }
-        #endregion
 
-        #region Public Methods
+  
         /// <summary>
         /// Passes the dialog set on this component to the dialog manager for processing
         /// </summary>
@@ -45,6 +43,5 @@ namespace ADVTK
         {
             customEvent.Invoke();
         }
-        #endregion
     }
 }

@@ -1,3 +1,5 @@
+// Author  : Don MacSween.
+// Purpose : A controller for managing flags with optional file persistence.
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
@@ -29,7 +31,9 @@ namespace ADVTK
             // e.g SetFlag("isSecurityDoorLocked", true);
         }
 
-        // private methods
+       /// <summary>
+       /// Enforces the singleton pattern
+       /// </summary>
         private void EnforceSingleton()
         {
             // if there is already an instance of this destroy this object
@@ -39,7 +43,11 @@ namespace ADVTK
             else { Instance = this; }
         }
         
-        // public methods
+        /// <summary>
+        /// Checks to see if a given flag is true or false
+        /// </summary>
+        /// <param name="flagName">Flag to be checked</param>
+        /// <returns>true or false</returns>
 
         public bool CheckFlag(string flagName)
         {
@@ -51,7 +59,11 @@ namespace ADVTK
             flagList.TryGetValue(flagName, out bool flagValue);
             return flagValue;
         }
-
+        /// <summary>
+        /// Sets a flag and it's value
+        /// </summary>
+        /// <param name="flagName">flag name</param>
+        /// <param name="flagValue">flag value</param>
         public void SetFlag (string flagName, bool flagValue)
         {
             if (flagList.ContainsKey(flagName))
@@ -63,7 +75,10 @@ namespace ADVTK
                 flagList.Add(flagName, flagValue);
             }
         }
-
+        /// <summary>
+        /// Removes a flag fron the dictionary
+        /// </summary>
+        /// <param name="flagName"></param>
         public void RemoveFlag(string flagName) 
         {
             if (flagList.ContainsKey(flagName))
@@ -77,7 +92,9 @@ namespace ADVTK
             }
             
         }
-
+        /// <summary>
+        /// Saves the key value pairs in a text file
+        /// </summary>
         public void Save()
         {
             // temporary holder of our dictionary entry
@@ -97,6 +114,9 @@ namespace ADVTK
                 writer.Close();
             }
         }
+        /// <summary>
+        /// Loads key value pairs from a text file
+        /// </summary>
         public void Load()
         {
             using (var reader = new StreamReader(File.OpenRead(dictPath)))

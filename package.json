@@ -6,7 +6,7 @@
   "unity": "2022.3",
   "unityRelease": "10f1",
   "documentationUrl": "https://github.com/donmacsween/com.2322033.AdventureToolkit/blob/main/Documentation~/documentation.pdf",
-  "changelogUrl": "https://github.com/donmacsween/com.2322033.AdventureToolkit",
+  "changelogUrl": "https://github.com/donmacsween/com.2322033.AdventureToolkit/blob/main/CHANGELOG.md",
   "licensesUrl": "https://github.com/donmacsween/com.2322033.AdventureToolkit/blob/main/LICENSE.txt",
   "dependencies": {
     "com.unity.textmeshpro": "3.0.6",
@@ -22,7 +22,7 @@
   "samples": [
     {
       "displayName": "Tutorial Demo Scenes",
-      "description": "A series of scenes demonstrating the component elements of the toolkit, Requies the Universal Render Pipeline",
+      "description": "A series of scenes demonstrating the component elements of the toolkit, Requires the Universal Render Pipeline",
       "path": "Samples~/Tutorial"
     }
   ],

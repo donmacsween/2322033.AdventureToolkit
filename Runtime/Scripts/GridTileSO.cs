@@ -8,7 +8,6 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "NewTile", menuName = "ADVTK/Tile")]
 public class GridTileSO : ScriptableObject
 {
-    #region Fields
     // Accessor Datatype   Name             Value
     [Tooltip("This is the X part of an array so the first element starts at 0")]
     public      int        tileXPosition;
@@ -18,7 +17,6 @@ public class GridTileSO : ScriptableObject
     public      float      YOffset           = 0f;
     [Tooltip("The Tile Prefab to use")]
     public      GameObject tilePrefab;
-    #endregion
 }
 // Unity Manual reference
 // https://docs.unity3d.com/Manual/class-ScriptableObject.html

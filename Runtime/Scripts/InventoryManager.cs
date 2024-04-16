@@ -1,4 +1,5 @@
-
+// Author : Don MacSween.
+// Purpose: Controller for adding, removing and listing inventroy items.
 using System.Collections.Generic;
 using UnityEngine;
 

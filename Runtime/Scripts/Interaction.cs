@@ -1,4 +1,4 @@
-// Author : Don MacSween
+// Author : Don MacSween.
 // Purpose: this script allows the player to interact with various
 // objects, NPCs or custom events within your game.
 using UnityEngine;
@@ -22,7 +22,6 @@ namespace ADVTK
         [SerializeField] private Transform          interactionPosition;
         [SerializeField] private NPCDialog          npcDialog;
         [SerializeField] private ItemSO             inventoryItem;
-        //[SerializeField] private InteractableObject InteractableObject;
         [SerializeField] private GameObject         MoveToButton;
         [SerializeField] private GameObject         InteractButton;
 

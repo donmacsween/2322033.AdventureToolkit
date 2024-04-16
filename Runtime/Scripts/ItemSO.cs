@@ -1,3 +1,5 @@
+// Author  : Don MacSween.
+// Purpose : A data store for inventory items
 using UnityEngine;
 
 namespace ADVTK

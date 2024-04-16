@@ -1,4 +1,5 @@
-
+// Author  : Don MacSween.
+// Purpose : A data store for both conditional and unconditional dialog
 using UnityEngine;
 
 namespace ADVTK

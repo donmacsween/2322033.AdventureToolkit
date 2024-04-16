@@ -1,5 +1,6 @@
+// Author  : Don MacSween.
+// Purpose : A simple part of the physisc puzzle that detexts when the ball has left the maze
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 

@@ -1,20 +1,15 @@
 // Author  : Don MacSween
-// Purpose : This class spawns a player prefab into the scen on request 
-
-// Included namespaces
+// Purpose : This class spawns a player prefab into the scene on request 
 using UnityEngine;
 
 namespace ADVTK
 {
     public class SpawnPlayer : MonoBehaviour
     {
-        #region Fields
         // Seralized     Accessor   Datatype   Name             Initial value 
         [SerializeField] private    GameObject player           = null;
-        [SerializeField] private    Transform  spawnPosition    =null;
-        #endregion
+        [SerializeField] private    Transform  spawnPosition    = null;
 
-        #region - Unity MonoBehaviour Methods
         private void Awake()
         {
             // Validate Fields
@@ -30,9 +25,7 @@ namespace ADVTK
                 spawnPosition = this.gameObject.transform; 
             }
         }
-        #endregion
 
-        #region - Public Methods
         /// <summary>
         ///  Spawns the player from an external call
         /// </summary>
@@ -46,6 +39,5 @@ namespace ADVTK
                 Instantiate(player,spawnPosition);
             }
         }
-        #endregion
     }
 }

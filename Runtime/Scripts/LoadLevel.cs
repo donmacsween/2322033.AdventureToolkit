@@ -23,6 +23,7 @@ namespace ADVTK
         /// </summary>
         public void loadAsync(string level)
         {
+            
             StartCoroutine(LoadYourAsyncScene(level));
         }
         #endregion
@@ -30,6 +31,7 @@ namespace ADVTK
         #region - Coroutines
         IEnumerator LoadYourAsyncScene(string level)
         {
+            
             // Hide our current scene with an optional loading screen
             if (loadingCanvas != null) { loadingCanvas.SetActive(true); }
             // The Application loads the passed level by string
