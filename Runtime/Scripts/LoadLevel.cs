@@ -23,7 +23,7 @@ namespace ADVTK
         /// </summary>
         public void loadAsync(string level)
         {
-            
+            Debug.Log(level);
             StartCoroutine(LoadYourAsyncScene(level));
         }
         #endregion
