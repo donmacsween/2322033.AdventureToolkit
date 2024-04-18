@@ -1,24 +1,27 @@
-// STYLE SHEET EXAMPLE
+// STYLE SHEET for ADVTK
 
 
 // NAMING/CASING:
-// - Use Pascal case (e.g. ExamplePlayerController, MaxHealth, etc.) unless noted otherwise
+// - Use Pascal case (e.g. ExamplePlayerController, MaxHealth, etc.) for Mothods and Properties unless noted otherwise
 // - Use camel case (e.g. examplePlayerController, maxHealth, etc.) for local/private variables, parameters.
+// - Snake Case Capitalised for constants only (e.g. const FIXED_HEALTH)
 // - Avoid snake case, kebab case, Hungarian notation
 // - If you have a Monobehaviour in a file, the source file name must match. 
 
 // FORMATTING:
 // - Choose K&R (opening curly braces on same line) or Allman (opening curly braces on a new line) style braces.
 // - Keep lines short ~80 characters unless doing so would break syntax or impair readability 
-// - Use a single space before flow control conditions, e.g. while (x == y)
+// - Use a single space before flow control conditions, e.g. while ( x == y )
 // - Avoid spaces inside brackets, e.g. x = dataArray[index]
 // - Use a single space after a comma between function arguments.
 // - Don’t add a space after the parenthesis and function arguments, e.g. CollectItem(myObject, 0, 1);
 // - use spaces between a function name and parenthesis, e.g. DropPowerUp(myPrefab, 0, 1);
 // - Use vertical spacing (extra blank line) for visual separation. 
+// - Use tabulation alignment between variable declarations to improve clarity
+// - e.g. [directive]   [private]   [type]  [name] [defaultvalue]
 
 // COMMENTS:
-// - Comments are placed on the end of the line for filds properties where space allows or above the item for all othe cases
+// - Comments are placed on the end of the line for fields properties where space allows or above the item for all other cases
 // - Rather than simply answering "what" or "how," comments can fill in the gaps and tell us "why."
 // - Use the // comment to keep the explanation next to the logic.
 // - Avoid Regions. They encourage large class sizes. Collapsed code is more difficult to read. 
